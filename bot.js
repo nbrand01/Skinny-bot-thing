@@ -9,7 +9,7 @@ function respond() {
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("no you");
+    postMessage("");
     this.res.end();
   } else {
     console.log("don't care");
@@ -39,7 +39,7 @@ function postMessage(message) {
     }
   ]
 }
-  };
+ 
 
   console.log('sending ' + botResponse + ' to ' + botID);
 
