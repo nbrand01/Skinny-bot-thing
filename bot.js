@@ -32,9 +32,8 @@ function postMessage(message) {
   body = {
     "bot_id" : botID,
     "text" : message,
-    "picture_url": "https://cdn.inprnt.com/thumbs/85/c1/85c150a47d90f5a1284caee0d042cf25.jpg?response-cache-control=max-age=2628000"
+    "picture_url": "https://cdn.inprnt.com/thumbs/85/c1/85c150a47d90f5a1284caee0d042cf25.jpg"
   };
-}
  
 
   console.log('sending ' + botResponse + ' to ' + botID);
